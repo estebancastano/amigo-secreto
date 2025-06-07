@@ -160,3 +160,66 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .section-title {
+        font-size: 28px;
+        padding: 0 10px;
+    }
+
+    .header-banner {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .header-banner img {
+        width: 80%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .input-wrapper {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .input-name {
+        border-radius: 25px;
+        margin-bottom: 10px;
+    }
+
+    .button-add {
+        border-radius: 25px;
+    }
+
+    .button-draw {
+        flex-direction: column;
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    .button-draw img {
+        margin: 0 0 10px 0;
+        width: 30px;
+    }
+
+    .button-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    ul {
+        font-size: 16px;
+    }
+
+    .result-list {
+        font-size: 20px;
+    }
+}
